@@ -51,18 +51,31 @@ public class Enemy {
             System.out.printf("モンスター%sは倒れた。\n", name);
         }
     }
+    /**
+     * フィールド変数を参照・設定するためのアクセサ（getter method）
+     * @return 　deed(敵の攻撃力)
+     */
     public boolean isDead() {
         return dead;
     }
-
+    /**
+     * フィールド変数を参照・設定するためのアクセサ（setter method）
+     * @param dead 敵の攻撃力
+     */
     public void setDead(boolean dead) {
         this.dead = dead;
     }
-    
+    /**
+     * フィールド変数を参照・設定するためのアクセサ（getter method）
+     * @return　name(敵の名前)
+     */
     public String getName() {
 		return name;
 	}
-
+    /**
+     * フィールド変数を参照・設定するためのアクセサ(setter method）
+     * @param name　敵の名前
+     */
 	public void setName(String name) {
 		this.name = name;
     }

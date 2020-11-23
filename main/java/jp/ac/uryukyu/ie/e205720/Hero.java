@@ -62,18 +62,31 @@ public class Hero {
             System.out.printf("勇者%sは道半ばで力尽きてしまった。\n", getName());
         }
     }
+    /**
+     * フィールド変数を参照・設定するためのアクセサ（getter method）
+     * @return name(ヒーローの名前)
+     */
     public String getName() {
 		return name;
 	}
-
+    /**
+     * フィールド変数を参照・設定するためのアクセサ（setter method）
+     * @param name ヒーローの名前
+     */
 	public void setName(String name) {
 		this.name = name;
     }
-
+    /**
+     * フィールド変数を参照・設定するためのアクセサ（getter method）
+     * @return dead(ヒーローの攻撃力)
+     */
     public boolean isDead() {
         return dead;
     }
-
+    /**
+     * フィールド変数を参照・設定するためのアクセサ（setter method）
+     * @param dead 攻撃力
+     */
     public void setDead(boolean dead) {
         this.dead = dead;
     }
